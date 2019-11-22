@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{default}">
+    <head>
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div layout:fragment="content">
+            <h1 th:inline="text">Olá [[${#httpServletRequest.remoteUser}]]!</h1>
+            <h1>Você é o Admin deste Dashboard</h1>
+            <p>Clique <a th:href="@{http://localhost:8080/swagger-ui.html}">aqui</a> para acessar a documentação do Swagger.</p>
+        </div>
+    </body>
+</html>

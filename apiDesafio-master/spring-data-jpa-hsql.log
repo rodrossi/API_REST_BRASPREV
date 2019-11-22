@@ -1,0 +1,450 @@
+21-11-2019 22:10:35.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8ed6ce3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:10:35.195 [main] INFO  br.com.desafio.brprev.DesafioBrPrev -
+				No active profile set, falling back to default profiles: default
+21-11-2019 22:10:36.229 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+21-11-2019 22:10:36.336 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 95ms. Found 9 repository interfaces.
+21-11-2019 22:10:36.544 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=5d943167-06dc-317a-93c3-9aa04ba2d18e
+21-11-2019 22:10:36.825 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:10:36.850 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8ed6ce3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:10:37.138 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8080 (http)
+21-11-2019 22:10:37.147 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+21-11-2019 22:10:37.147 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+21-11-2019 22:10:37.147 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.27]
+21-11-2019 22:10:37.258 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+21-11-2019 22:10:37.258 [main] INFO  o.s.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2047 ms
+21-11-2019 22:10:37.439 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+21-11-2019 22:10:37.568 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+21-11-2019 22:10:37.576 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dbtest'
+21-11-2019 22:10:37.764 [main] INFO  o.s.b.web.servlet.RegistrationBean -
+				Servlet webServlet was not registered (possibly already registered?)
+21-11-2019 22:10:37.839 [main] INFO  o.f.c.i.license.VersionPrinter -
+				Flyway Community Edition 6.0.6 by Redgate
+21-11-2019 22:10:37.858 [main] INFO  o.f.c.i.database.DatabaseFactory -
+				Database: jdbc:h2:mem:dbtest (H2 1.4)
+21-11-2019 22:10:37.904 [main] INFO  o.f.core.internal.command.DbValidate -
+				Successfully validated 0 migrations (execution time 00:00.008s)
+21-11-2019 22:10:37.910 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory -
+				Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+21-11-2019 22:10:37.936 [main] INFO  o.f.core.internal.command.DbMigrate -
+				Current version of schema "PUBLIC": << Empty Schema >>
+21-11-2019 22:10:37.938 [main] INFO  o.f.core.internal.command.DbMigrate -
+				Schema "PUBLIC" is up to date. No migration necessary.
+21-11-2019 22:10:38.022 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+21-11-2019 22:10:38.105 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate Core {5.4.6.Final}
+21-11-2019 22:10:38.246 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+21-11-2019 22:10:38.347 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+21-11-2019 22:10:39.273 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21-11-2019 22:10:39.279 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-11-2019 22:10:39.317 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-11-2019 22:10:40.080 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+21-11-2019 22:10:40.254 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/static/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/console/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/static/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/console/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/static/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/img/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/fonts/**'], []
+21-11-2019 22:10:40.255 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/scss/**'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/vendor/**'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/favicon.ico'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/auth/**'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/favicon.png'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/v2/api-docs'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/configuration/ui'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/configuration/security'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+21-11-2019 22:10:40.256 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagge‌​r-ui.html'], []
+21-11-2019 22:10:40.293 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2911db81, org.springframework.security.web.context.SecurityContextPersistenceFilter@54ef9698, org.springframework.security.web.header.HeaderWriterFilter@4229b92c, org.springframework.security.web.authentication.logout.LogoutFilter@45375bdf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5b71af0d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5da2966, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@478fe415, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32a074ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fce1069, org.springframework.security.web.session.SessionManagementFilter@66e218d8, org.springframework.security.web.access.ExceptionTranslationFilter@7e7391e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5513a46b]
+21-11-2019 22:10:40.316 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21-11-2019 22:10:40.421 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+21-11-2019 22:10:41.019 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+21-11-2019 22:10:41.040 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+21-11-2019 22:10:41.075 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+21-11-2019 22:10:41.095 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+21-11-2019 22:10:41.121 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8080 (http) with context path ''
+21-11-2019 22:10:41.203 [main] INFO  br.com.desafio.brprev.DesafioBrPrev -
+				Started DesafioBrPrev in 6.938 seconds (JVM running for 7.414)
+21-11-2019 22:10:59.074 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-11-2019 22:10:59.075 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+21-11-2019 22:10:59.083 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 8 ms
+21-11-2019 22:13:06.547 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator -
+				Loaded expression factory via original TCCL
+21-11-2019 22:13:07.091 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8ea8be2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:13:07.256 [main] INFO  br.com.desafio.brprev.DesafioBrPrev -
+				No active profile set, falling back to default profiles: default
+21-11-2019 22:13:08.161 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+21-11-2019 22:13:08.250 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 83ms. Found 9 repository interfaces.
+21-11-2019 22:13:08.482 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=5d943167-06dc-317a-93c3-9aa04ba2d18e
+21-11-2019 22:13:08.755 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:13:08.783 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8ea8be2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:13:09.050 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8080 (http)
+21-11-2019 22:13:09.059 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+21-11-2019 22:13:09.060 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+21-11-2019 22:13:09.060 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.27]
+21-11-2019 22:13:09.166 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+21-11-2019 22:13:09.166 [main] INFO  o.s.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1897 ms
+21-11-2019 22:13:09.325 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+21-11-2019 22:13:09.449 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+21-11-2019 22:13:09.455 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dbtest'
+21-11-2019 22:13:09.622 [main] INFO  o.s.b.web.servlet.RegistrationBean -
+				Servlet webServlet was not registered (possibly already registered?)
+21-11-2019 22:13:09.691 [main] INFO  o.f.c.i.license.VersionPrinter -
+				Flyway Community Edition 6.0.6 by Redgate
+21-11-2019 22:13:09.707 [main] INFO  o.f.c.i.database.DatabaseFactory -
+				Database: jdbc:h2:mem:dbtest (H2 1.4)
+21-11-2019 22:13:09.750 [main] INFO  o.f.core.internal.command.DbValidate -
+				Successfully validated 0 migrations (execution time 00:00.005s)
+21-11-2019 22:13:09.754 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory -
+				Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+21-11-2019 22:13:09.776 [main] INFO  o.f.core.internal.command.DbMigrate -
+				Current version of schema "PUBLIC": << Empty Schema >>
+21-11-2019 22:13:09.777 [main] INFO  o.f.core.internal.command.DbMigrate -
+				Schema "PUBLIC" is up to date. No migration necessary.
+21-11-2019 22:13:09.860 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+21-11-2019 22:13:09.923 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate Core {5.4.6.Final}
+21-11-2019 22:13:10.049 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+21-11-2019 22:13:10.160 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+21-11-2019 22:13:11.067 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21-11-2019 22:13:11.072 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-11-2019 22:13:11.112 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-11-2019 22:13:11.840 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+21-11-2019 22:13:12.075 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/**'], []
+21-11-2019 22:13:12.075 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/static/**'], []
+21-11-2019 22:13:12.075 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:13:12.075 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/console/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/static/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/console/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/static/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/img/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/fonts/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/scss/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/vendor/**'], []
+21-11-2019 22:13:12.076 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/favicon.ico'], []
+21-11-2019 22:13:12.077 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/auth/**'], []
+21-11-2019 22:13:12.077 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/favicon.png'], []
+21-11-2019 22:13:12.077 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/v2/api-docs'], []
+21-11-2019 22:13:12.078 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/configuration/ui'], []
+21-11-2019 22:13:12.078 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/configuration/security'], []
+21-11-2019 22:13:12.078 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+21-11-2019 22:13:12.078 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+21-11-2019 22:13:12.078 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagge‌​r-ui.html'], []
+21-11-2019 22:13:12.128 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fb1948c, org.springframework.security.web.context.SecurityContextPersistenceFilter@272c5abd, org.springframework.security.web.header.HeaderWriterFilter@1bfafce1, org.springframework.security.web.authentication.logout.LogoutFilter@1fe7fa16, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58c36104, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@129aaac1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70ad0854, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19540247, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c39193f, org.springframework.security.web.session.SessionManagementFilter@767cc126, org.springframework.security.web.access.ExceptionTranslationFilter@107ebdad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3794b7b1]
+21-11-2019 22:13:12.149 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21-11-2019 22:13:12.240 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+21-11-2019 22:13:12.783 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+21-11-2019 22:13:12.806 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+21-11-2019 22:13:12.862 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+21-11-2019 22:13:12.883 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+21-11-2019 22:13:12.907 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8080 (http) with context path ''
+21-11-2019 22:13:12.976 [main] INFO  br.com.desafio.brprev.DesafioBrPrev -
+				Started DesafioBrPrev in 6.7 seconds (JVM running for 7.177)
+21-11-2019 22:13:38.679 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-11-2019 22:13:38.679 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+21-11-2019 22:13:38.690 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 11 ms
+21-11-2019 22:16:50.443 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f6d827f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:16:50.598 [main] INFO  br.com.desafio.brprev.DesafioBrPrev -
+				No active profile set, falling back to default profiles: default
+21-11-2019 22:16:51.511 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+21-11-2019 22:16:51.601 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 80ms. Found 9 repository interfaces.
+21-11-2019 22:16:51.806 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=5d943167-06dc-317a-93c3-9aa04ba2d18e
+21-11-2019 22:16:52.055 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:16:52.088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f6d827f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-11-2019 22:16:52.400 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8080 (http)
+21-11-2019 22:16:52.408 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+21-11-2019 22:16:52.408 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+21-11-2019 22:16:52.408 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.27]
+21-11-2019 22:16:52.504 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+21-11-2019 22:16:52.505 [main] INFO  o.s.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1896 ms
+21-11-2019 22:16:52.678 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+21-11-2019 22:16:52.798 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+21-11-2019 22:16:52.806 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dbtest'
+21-11-2019 22:16:52.972 [main] INFO  o.s.b.web.servlet.RegistrationBean -
+				Servlet webServlet was not registered (possibly already registered?)
+21-11-2019 22:16:53.043 [main] INFO  o.f.c.i.license.VersionPrinter -
+				Flyway Community Edition 6.0.6 by Redgate
+21-11-2019 22:16:53.059 [main] INFO  o.f.c.i.database.DatabaseFactory -
+				Database: jdbc:h2:mem:dbtest (H2 1.4)
+21-11-2019 22:16:53.108 [main] INFO  o.f.core.internal.command.DbValidate -
+				Successfully validated 0 migrations (execution time 00:00.005s)
+21-11-2019 22:16:53.112 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory -
+				Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+21-11-2019 22:16:53.142 [main] INFO  o.f.core.internal.command.DbMigrate -
+				Current version of schema "PUBLIC": << Empty Schema >>
+21-11-2019 22:16:53.143 [main] INFO  o.f.core.internal.command.DbMigrate -
+				Schema "PUBLIC" is up to date. No migration necessary.
+21-11-2019 22:16:53.215 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+21-11-2019 22:16:53.281 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate Core {5.4.6.Final}
+21-11-2019 22:16:53.436 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+21-11-2019 22:16:53.549 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+21-11-2019 22:16:54.449 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21-11-2019 22:16:54.454 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-11-2019 22:16:54.487 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-11-2019 22:16:55.271 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+21-11-2019 22:16:55.479 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/**'], []
+21-11-2019 22:16:55.479 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/static/**'], []
+21-11-2019 22:16:55.479 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:16:55.479 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:16:55.479 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:16:55.479 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/console/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/static/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/console/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/resources/static/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/css/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/js/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/img/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/fonts/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/images/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/scss/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/vendor/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/favicon.ico'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/auth/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/favicon.png'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/v2/api-docs'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/configuration/ui'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/configuration/security'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+21-11-2019 22:16:55.480 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: Ant [pattern='/swagge‌​r-ui.html'], []
+21-11-2019 22:16:55.516 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58c36104, org.springframework.security.web.context.SecurityContextPersistenceFilter@138a952f, org.springframework.security.web.header.HeaderWriterFilter@44a98a23, org.springframework.security.web.authentication.logout.LogoutFilter@6be2b567, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@129aaac1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39a30d1a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bfdaed7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f0381f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fc8047f, org.springframework.security.web.session.SessionManagementFilter@e3275d3, org.springframework.security.web.access.ExceptionTranslationFilter@345540f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@141234df]
+21-11-2019 22:16:55.535 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21-11-2019 22:16:55.625 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+21-11-2019 22:16:56.165 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+21-11-2019 22:16:56.191 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+21-11-2019 22:16:56.245 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+21-11-2019 22:16:56.375 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: findUsingGET_1
+21-11-2019 22:16:56.378 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: deleteUsingDELETE_1
+21-11-2019 22:16:56.383 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: findUsingGET_2
+21-11-2019 22:16:56.387 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: findAllUsingGET_1
+21-11-2019 22:16:56.393 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: findPageUsingGET_1
+21-11-2019 22:16:56.396 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: updateUsingPUT_1
+21-11-2019 22:16:56.398 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: findUsingGET_3
+21-11-2019 22:16:56.404 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator -
+				Generating unique operation named: findUsingGET_4
+21-11-2019 22:16:56.421 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+21-11-2019 22:16:56.443 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8080 (http) with context path ''
+21-11-2019 22:16:56.516 [main] INFO  br.com.desafio.brprev.DesafioBrPrev -
+				Started DesafioBrPrev in 6.82 seconds (JVM running for 7.279)
+21-11-2019 22:17:14.878 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-11-2019 22:17:14.878 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+21-11-2019 22:17:14.889 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 11 ms
